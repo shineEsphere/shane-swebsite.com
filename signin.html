@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Sign-In</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            padding: 50px;
+            background: url(b.png);
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: wheat;
+            padding: 75px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color: black;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .input-group input[type="submit"] {
+            background-color: black;
+            color: #fff;
+            cursor: pointer;
+        }
+        .input-group input[type="submit"]:hover {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Coffee Shop Sign-In</h2>
+        <form action="file:///C:/Users/USER/Desktop/Apple%20Folders/Shane's%20Website/index.html" method="post">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: 123-456-7890</small>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Sign In">
+                <a href="file:///C:/Users/USER/Desktop/Apple%20Folders/Shane's%20Website/index.html"></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
